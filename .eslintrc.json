@@ -1,6 +1,12 @@
 {
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
   "root": true,
   "extends": ["fullstack", "prettier", "prettier/react"],
+  "parser": "@babel/eslint-parser",
   "rules": {
     "semi": 0,
     "no-console": 1
